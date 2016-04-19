@@ -43,18 +43,18 @@ public class ColorMatcher {
         //Grab the size of the list of color items and store that
         int count = list.size();
 
-        list = ColorItems.getSavedColorItems(context);
-        ColorItem[] colors = new ColorItem[10];
-        String[] hsvparts = new String[count];
-        Integer[] hue = new Integer[count];
-        Integer[] sat = new Integer[count];
-        Integer[] val = new Integer[count];
-        String[] myColors = new String[count];
+        list = ColorItems.getSavedColorItems(context); //grab list of saved colors
+        ColorItem[] colors = new ColorItem[10]; //will hold color items
+        String[] hsvparts = new String[count]; //will hold result of hsvString regex
+        Integer[] hue = new Integer[count]; //will hold hue values
+        Integer[] sat = new Integer[count]; // will hold saturation values
+        Integer[] val = new Integer[count]; // will hold vibrance values
+        String[] myColors = new String[count]; // how many colors are in the list
 
 
         for (int i = 0; i < list.size(); i++) {
 
-            colors[i] = list.get(i);
+            colors[i] = list.get(i); //grab the i element in the list
             String hsv = colors[i].getHsvString(); //get the HSV string
             String h = hsv.replaceAll("[^0-9.,]+", ""); // remove everything except hsv values
 
@@ -159,6 +159,8 @@ public class ColorMatcher {
 
 
             //Assume the color is white having trouble of camera being able to identify it.
+            // In later iterations I will plan to add more colors and address this.
+            //This can cause problems with match problem - when color is not in primaries.
 
            else if (myColors[i] == null) {
                 myColors[i] = "white";
@@ -253,6 +255,8 @@ public class ColorMatcher {
         //for 3 colors
         if(list.size() == 3) {
 
+            //if colors are all the same. We add the second part besides allSame because if the list is null then
+            // allSame will return true.
             if (allSame && (yourColors.contains("red") || yourColors.contains("black") || yourColors.contains("white")
                     || yourColors.contains("blue") || yourColors.contains("yellow") || yourColors.contains("magenta")
                     || yourColors.contains("cyan")))
@@ -330,6 +334,7 @@ public class ColorMatcher {
             }
         }
 
+        // Log for console for debugging
         Log.d("AllSame", "Truth value : "+allSame);
 
 
