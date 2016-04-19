@@ -37,7 +37,7 @@ You can also click the lightning bolt in the top right, this turns on flash. Tur
 
 If you want to save a color first click the circle with the finger in the center and then click the floppy 'save icon' on the bottom bar right of your color. You should see a picture representation of the color along with its hex code.
 
-GIF : http://im2.ezgif.com/tmp/ezgif-1053374910.gif
+GIF : http://gfycat.com/CourteousComplexKingfisher
 
 
 #To check if the colors match
@@ -46,7 +46,7 @@ Here is my module. Go back from the camera to the main page under the Color tab.
 
 For this demo, you can only test lists of 2, 3, or 4 colors. So keep that in mind!
 
-GIF : http://im2.ezgif.com/tmp/ezgif-2054810093.gif
+GIF : http://gfycat.com/EnormousSerpentineBoubou
 
 
 # Color Details
