@@ -4,6 +4,8 @@ Uses android camera to grab colors and clicking match button will tell user if t
 
 Added module to Open Source project Camera Color Picker by tvbarthel. https://github.com/tvbarthel/CameraColorPicker
 
+This app likely would not be possible without them.
+
 
 # LICENSE
 
