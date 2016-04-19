@@ -106,7 +106,7 @@ public class ColorMatcher {
 
             //green
 
-            else if ((hu >= 70 && hu <= 180) && (va >= 30 && va <= 55) && (sa <= 100)) {
+             else if ((hu >= 70 && hu <= 180) && (va >= 10 && va <= 55) && (sa <= 100)) {
 
                 myColors[i] = "green";
 
