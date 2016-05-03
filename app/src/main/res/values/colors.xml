@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Color Scheme for app -->
+    <color name="color_primary">#252839</color>
+    <color name="color_primary_dark">#677077</color>
+    <color name="color_accent">#f2b632</color>
+
+
+    <color name="activity_color_picker_pointer_ring">#FFFFFFFF</color>
+
+    <color name="pointer_color">#80FFFFFF</color>
+</resources>
