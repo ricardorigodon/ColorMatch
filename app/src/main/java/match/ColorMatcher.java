@@ -276,7 +276,7 @@ public class ColorMatcher{
         //check if map has the color string in the matches file
         if(map.containsValue(String.valueOf(yourColors))){
 
-            match = true;
+            match = true; // set match to true
         }
 
 
