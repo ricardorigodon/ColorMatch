@@ -4,10 +4,15 @@ import android.view.MenuItem;
 import android.view.Menu;
 import ricardo.colormatch.activities.MainActivity;
 
-/**
+
+
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
  * The behavior of the {@link ricardo.colormatch.activities.MainActivity} specific to the foss product flavor.
  * This class should be present in all the product flavors.
- */
+ * @author tvbarthel
+ * */
+
+
 public class MainActivityFlavor {
 
     /**

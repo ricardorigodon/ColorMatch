@@ -11,6 +11,10 @@ import ricardo.colormatch.R;
 import ricardo.colormatch.data.Palette;
 import ricardo.colormatch.views.PaletteView;
 
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
 /**
  * A simple {@link ArrayAdapter} of {@link Palette}s that binds each {@link Palette} to a {@link R.layout#row_palette}.
  */

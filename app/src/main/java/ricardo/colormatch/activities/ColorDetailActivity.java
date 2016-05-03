@@ -41,10 +41,9 @@ import android.animation.AnimatorSet;
         import ricardo.colormatch.fragments.EditTextDialogFragment;
         import ricardo.colormatch.utils.ClipDatas;
 
-/**
- * This code is written by Thomas and Vincent Barthélémy https://github.com/tvbarthel/CameraColorPicker
- * This code is NOT mine. The main package is different.
- */
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
 
     public class ColorDetailActivity extends AppCompatActivity implements View.OnClickListener,
             DeleteColorDialogFragment.Callback, EditTextDialogFragment.Callback {

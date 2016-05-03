@@ -16,13 +16,17 @@ import java.util.List;
 import ricardo.colormatch.data.ColorItem;
 import ricardo.colormatch.data.Palette;
 
+
 /**
  * A {@link View} for creating {@link Palette}s.
  * <p/>
  * You can add {@link ColorItem} using {@link PaletteMakerView#addColor(ColorItem)}.
  * You can remove the last added {@link ColorItem} using {@link PaletteMakerView#removeLastColor()}.
  * You can call {@link PaletteMakerView#make(String)} to create the {@link Palette} with the {@link ColorItem} you added.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
 public class PaletteMakerView extends View {
 
     /**

@@ -5,11 +5,10 @@ import android.os.Parcelable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * A simple class representing a palette of colors.
- * <p/>
- * It's a list of {@link ColorItem}s with an id and a name.
- */
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * List of color items.
+ * @author tvbarthel
+ * */
 public class Palette implements Parcelable {
 
     /**

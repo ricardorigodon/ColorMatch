@@ -7,7 +7,10 @@ import android.content.pm.PackageManager;
 
 /**
  * Static methods for dealing with application version.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
 public final class Versions {
 
     /**

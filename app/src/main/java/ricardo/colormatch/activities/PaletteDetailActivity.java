@@ -1,8 +1,5 @@
 package ricardo.colormatch.activities;
 
-/**
- * Created by Ricardo on 3/21/2016.
- */
 
 import android.widget.Toast;
         import android.animation.Animator;
@@ -46,6 +43,10 @@ import android.widget.Toast;
         import ricardo.colormatch.fragments.EditTextDialogFragment;
         import ricardo.colormatch.utils.ClipDatas;
         import ricardo.colormatch.views.PaletteView;
+
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
 
 /**
  * A simple {@link AppCompatActivity} for displaying a {@link Palette} with its {@link ColorItem}s

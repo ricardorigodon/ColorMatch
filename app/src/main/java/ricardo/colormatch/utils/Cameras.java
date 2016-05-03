@@ -9,7 +9,11 @@ package ricardo.colormatch.utils;
 
 /**
  * Static utils methods for dealing with {@link android.hardware.Camera}.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
 public final class Cameras {
 
     private static final double ASPECT_TOLERANCE = 0.15;

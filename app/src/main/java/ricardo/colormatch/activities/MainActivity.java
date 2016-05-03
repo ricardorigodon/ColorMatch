@@ -35,8 +35,10 @@ import ricardo.colormatch.fragments.AboutDialogFragment;
 import ricardo.colormatch.views.ColorItemListPage;
 import ricardo.colormatch.views.PaletteListPage;
 
-/*
+/**
     Main Activity for Color Match.
+ *  @author tvbarthel
+ *  @author Ricardo Rigodon
  */
 
 /**
@@ -233,9 +235,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return handled;
     }
 
-    /* Sets onclick of bottom right buttons, one that starts up the camera to pick the color and
+    /** Sets onclick of bottom right buttons, one that starts up the camera to pick the color and
     the other will create a palette on the palette page.
+     @param v - the view
      */
+
     @Override
     public void onClick(View v) {
         final int viewId = v.getId();
@@ -259,12 +263,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             default:
                 throw new IllegalArgumentException("View clicked unsupported. Found " + v);
-        }
+           }
     }
 
-    /*
+    /**
          When page is scrolled, the offset will correct if the user for example slides halfway
          and move to the next page.
+
+     *    @param position
+     *   @param positionOffset
+     *  @param positionOffsetPixels
 
      */
     @Override

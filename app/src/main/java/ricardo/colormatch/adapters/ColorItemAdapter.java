@@ -15,6 +15,11 @@ import ricardo.colormatch.data.ColorItem;
 /**
  * A simple {@link ArrayAdapter} of {@link ColorItem}s that binds each {@link ColorItem} to a {@link R.layout#row_color_item}.
  */
+
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
 public class ColorItemAdapter extends ArrayAdapter<ColorItem> {
 
     public ColorItemAdapter(Context context) {

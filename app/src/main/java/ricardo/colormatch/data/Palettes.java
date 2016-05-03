@@ -14,9 +14,13 @@ import java.util.Iterator;
 import java.util.List;
 import ricardo.colormatch.views.ColorItemListPage;
 
+
 /**
  * Static methods for dealing with {@link Palette}s.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
 public final class Palettes {
 
     /**

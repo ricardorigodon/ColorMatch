@@ -14,6 +14,11 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
 /**
  * Static methods for dealing with {@link fr.tvbarthel.apps.cameracolorpicker.data.ColorItem}s.
  */

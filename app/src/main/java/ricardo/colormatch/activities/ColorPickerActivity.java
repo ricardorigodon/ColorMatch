@@ -1,8 +1,5 @@
 package ricardo.colormatch.activities;
 
-/**
- * Created by Ricardo on 3/21/2016.
- */
 
         import android.animation.Animator;
         import android.animation.ObjectAnimator;
@@ -32,11 +29,9 @@ package ricardo.colormatch.activities;
         import ricardo.colormatch.utils.Cameras;
         import ricardo.colormatch.views.CameraColorPickerPreview;
 
-/**
- * This code is written by Thomas and Vincent Barthélémy https://github.com/tvbarthel/CameraColorPicker
- * This code is NOT mine. The main package is different.
- */
-
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
 
 /**
  * An {@link android.support.v7.app.AppCompatActivity} for picking colors by using the camera of the device.

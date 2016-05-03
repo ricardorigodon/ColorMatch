@@ -16,7 +16,12 @@ package ricardo.colormatch.fragments;
 
 /**
  * A simple {@link android.support.v4.app.DialogFragment} for displaying some information about this application.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
+
 public class AboutDialogFragment extends DialogFragment {
 
     /**

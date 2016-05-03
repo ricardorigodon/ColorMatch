@@ -4,9 +4,10 @@ import android.graphics.Color;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
  * A simple data class representing a color.
- */
+ * @author tvbarthel
+ * */
 public class ColorItem implements Parcelable {
 
     /**

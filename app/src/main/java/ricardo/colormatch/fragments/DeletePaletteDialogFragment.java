@@ -19,9 +19,13 @@ import android.app.Activity;
         import ricardo.colormatch.data.Palette;
         import ricardo.colormatch.views.PaletteView;
 
+
 /**
- * A simple {@link android.support.v4.app.DialogFragment} used to ask the user to confirm the deletion of a {@link fr.tvbarthel.apps.cameracolorpicker.data.Palette}.
- */
+ * A simple {@link android.support.v4.app.DialogFragment} used to ask the user to confirm the deletion of a {@link ricardo.colormatch.data.Palette}.
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
 public class DeletePaletteDialogFragment extends DialogFragment {
 
     /**

@@ -19,7 +19,11 @@ import ricardo.colormatch.data.Palettes;
 /**
  * A simple {@link FrameLayout} used in the {@link android.support.v4.view.ViewPager} of the {@link fr.tvbarthel.apps.cameracolorpicker.activities.MainActivity}
  * to display the list of the {@link Palette}s that the user created.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
 public class PaletteListPage extends FrameLayout {
 
     /**

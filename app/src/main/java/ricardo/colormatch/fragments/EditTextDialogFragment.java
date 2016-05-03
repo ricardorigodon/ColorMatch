@@ -24,9 +24,14 @@ package ricardo.colormatch.fragments;
         import ricardo.colormatch.data.Palette;
         import ricardo.colormatch.utils.Views;
 
+
 /**
  * A simple {@link DialogFragment} with an {@link android.widget.EditText}.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
 public class EditTextDialogFragment extends DialogFragment {
 
     /**

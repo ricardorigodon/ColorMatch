@@ -5,8 +5,12 @@ import android.content.ClipboardManager;
 import android.content.Context;
 
 /**
- * Static methods for dealing with {@link android.content.ClipData}.
- */
+ * ClipDatas grabs data for clipboard.
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
 public final class ClipDatas {
 
     /**

@@ -1,15 +1,15 @@
 package ricardo.colormatch.activities;
 
-/**
- * Created by Ricardo on 3/21/2016.
- * Code from https://github.com/tvbarthel/CameraColorPicker
- */
-
 import ricardo.colormatch.R;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 
+
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ *
+ */
 
 /**
  * A simple {@link android.support.v7.app.AppCompatActivity} for displaying the licenses of the open source projects used in this application.

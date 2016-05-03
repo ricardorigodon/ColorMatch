@@ -1,8 +1,5 @@
 package ricardo.colormatch.activities;
 
-/**
- * Created by Ricardo on 3/21/2016.
- */
 
 import ricardo.colormatch.data.Palette;
 
@@ -27,6 +24,10 @@ import ricardo.colormatch.data.Palette;
         import ricardo.colormatch.data.Palettes;
         import ricardo.colormatch.fragments.EditTextDialogFragment;
         import ricardo.colormatch.views.PaletteMakerView;
+
+/** Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
 
 /**
  * An {@link AppCompatActivity} for creating a {@link Palette} from the {@link ColorItem}s that the user saved.

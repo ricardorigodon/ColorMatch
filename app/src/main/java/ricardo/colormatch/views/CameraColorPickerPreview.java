@@ -9,7 +9,11 @@ import android.view.TextureView;
 
 /**
  * A simple {@link android.view.TextureView} used to render camera preview.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
+
+
 public class CameraColorPickerPreview extends TextureView implements TextureView.SurfaceTextureListener, Camera.PreviewCallback {
 
     /**

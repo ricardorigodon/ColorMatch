@@ -19,7 +19,9 @@ import android.content.DialogInterface;
 
 /**
  * A simple {@link android.support.v4.app.DialogFragment} used to ask the user to confirm the deletion of a {@link ricardo.colormatch.data.ColorItem}.
- */
+ * Class created by tvbarthel at https://github.com/tvbarthel/CameraColorPicker
+ * @author tvbarthel
+ * */
 public final class DeleteColorDialogFragment extends DialogFragment {
 
     /**
