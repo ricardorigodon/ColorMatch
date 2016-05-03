@@ -116,6 +116,8 @@ public class ColorMatcher{
         @param list The list of saved color items that the user currently chose
      */
     public static boolean isMatch(Context context, List<ColorItem> list) {
+        
+        match = false; //set match to false incase it does not get reset from true -> false
 
         AssetManager assetManager = context.getAssets(); //get assets from context
         BufferedReader reader = null; //create BufferedReader
