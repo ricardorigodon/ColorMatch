@@ -187,7 +187,7 @@ public final class ColorItems {
             }
         }
 
-        return false;
+        return false; //return false
     }
 
     /**
