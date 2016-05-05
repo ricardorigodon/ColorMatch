@@ -124,7 +124,7 @@ public final class ColorItems {
 
         // Sort the color items chronologically.
         Collections.sort(colorItems, CHRONOLOGICAL_COMPARATOR);
-        return colorItems;
+        return colorItems; //return the color items
     }
 
     /**
@@ -136,7 +136,7 @@ public final class ColorItems {
      */
     public static boolean saveColorItem(Context context, ColorItem colorToSave) {
         if (colorToSave == null) {
-            throw new IllegalArgumentException("Can't save a null color.");
+            throw new IllegalArgumentException("Can't save a null color."); //throws Illegal Argument exception
         }
 
         final List<ColorItem> savedColorsItems = getSavedColorItems(context);
