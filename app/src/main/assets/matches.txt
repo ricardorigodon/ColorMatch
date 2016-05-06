@@ -70,6 +70,22 @@
 71 = wcbl
 72 = wrbl
 73 = brbl
+74 = rcw
+75 = blbr
+76 = rby
+77 = wblyw
+78 = blwyw
+79 = rcbl
+80 = crbl
+81 = yrybl
+82 = blblyy
+83 = yybly
+84 = blbly
+85 = yblbl
+86 = blybl
+87 = wblbl
+88 = bwbl
+89 = mybl
 
 
 

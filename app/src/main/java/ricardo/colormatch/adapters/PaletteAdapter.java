@@ -72,7 +72,7 @@ public class PaletteAdapter extends ArrayAdapter<Palette> {
 
         public ViewHolder(View view) {
             mPaletteRoundedThumbnail = (PaletteView) view.findViewById(R.id.row_color_palette_thumbnail);
-            mPaletteName = (TextView) view.findViewById(R.id.row_color_palette_name); //palette name set by view variable row_color_palette_name
+            mPaletteName = (TextView) view.findViewById(R.id.row_color_palette_name);
         }
     }
 }

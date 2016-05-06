@@ -10,7 +10,6 @@ import ricardo.colormatch.activities.MainActivity;
  * The behavior of the {@link ricardo.colormatch.activities.MainActivity} specific to the foss product flavor.
  * This class should be present in all the product flavors.
  * @author tvbarthel
- * @author Ricardo Rigodon
  * */
 
 

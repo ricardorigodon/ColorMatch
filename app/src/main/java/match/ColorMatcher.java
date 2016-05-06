@@ -46,23 +46,23 @@ public class ColorMatcher{
     private static boolean match = false;
 
     //red
-    private final static int LRHUE = 0; //low range of hue
-    private final static int HRHUE = 14; // high range of hue
+    private final static int LRHUE = 180; //low range of hue
+    private final static int HRHUE = 390; // high range of hue
     private final static int LRVA = 52; // low range of value
     private final static int HRVA = 100; // high range of value
-    private final static int RSAT = 60; // saturation value
+    private final static int RSAT = 75; // saturation value
 
     //blue
     private final static int LBHUE = 200; // low range of hue
     private final static int HBHUE = 350; // high range of hue
-    private final static int LBVA = 45; // low range of value
+    private final static int LBVA = 35; // low range of value
     private final static int HBVA = 75; // high range of value
     private final static int BSAT = 100; // saturation value
 
     //black
     private final static int LBLHUE = 0; // low range of hue
-    private final static int HBLHUE = 60; // high range of hue
-    private final static int BLVA = 11; // value
+    private final static int HBLHUE = 95; // high range of hue
+    private final static int BLVA = 20; // value
     private final static int BLSAT = 100; // saturation
 
     //white
@@ -70,7 +70,7 @@ public class ColorMatcher{
     private final static int HWHUE = 350; // high range of hue
     private final static int LWVA = 64; // low range of value
     private final static int HWVA = 72; // high range of value
-    private final static int WSAT = 5; // saturation value
+    private final static int WSAT = 8; // saturation value
 
     //green
     private final static int LGHUE = 60; // low range of hue
@@ -80,12 +80,12 @@ public class ColorMatcher{
     private final static int GSAT = 85; // saturation value
 
     //yellow
-    private final static int LYHUE = 40; // low range of hue
+    private final static int LYHUE = 35; // low range of hue
     private final static int HYHUE = 75; // high range of hue
-    private final static int LYVA = 74; // low range of value
+    private final static int LYVA = 70; // low range of value
     private final static int HYVA = 100; // high range of value
-    private final static int LYSAT = 20; // low range of sat
-    private final static int HYSAT = 70; // high range of sat
+    private final static int LYSAT = 30; // low range of sat
+    private final static int HYSAT = 100; // high range of sat
 
     //magenta
     private final static int LMHUE = 325; //low range of hue
@@ -101,6 +101,7 @@ public class ColorMatcher{
     private final static int LCVA = 52; // low range of value
     private final static int HCVA = 115; // high range of value
     private final static int CSAT = 100; // saturation value
+
     private static String yourColors = ""; //string of colors
 
     //Creates a hashmap with integer as key and strings as the value.
@@ -116,11 +117,10 @@ public class ColorMatcher{
         @param list The list of saved color items that the user currently chose
      */
     public static boolean isMatch(Context context, List<ColorItem> list) {
-        
-        match = false; //set match to false incase it does not get reset from true -> false
 
         AssetManager assetManager = context.getAssets(); //get assets from context
         BufferedReader reader = null; //create BufferedReader
+        match = false;
 
         try{
             //create new buffered reader and open input stream in matches.txt
@@ -184,7 +184,7 @@ public class ColorMatcher{
              */
 
             //red
-            if ((hu >= LRHUE && hu <= HRHUE) && (va >= LRVA && va <= HRVA ) && (sa > RSAT)) {
+            if ((hu >= LRHUE && hu <= HRHUE) && (va >= LRVA && va <= HRVA ) && (sa >= RSAT)) {
 
                 myColors[i] = "r"; //set to string of r
 
@@ -192,7 +192,7 @@ public class ColorMatcher{
 
             //yellow
 
-            else if ((hu >= LYHUE && hu < HYHUE) && (va >= LYVA && va < HYVA) && (sa >= LYSAT  && sa <= HYSAT)) {
+            else if ((hu >= LYHUE && hu <= HYHUE) && (va >= LYVA && va <= HYVA) && (sa >= LYSAT  && sa <= HYSAT)) {
 
                 myColors[i] = "y"; //set to string of y
 
@@ -219,7 +219,7 @@ public class ColorMatcher{
 
             //blue
 
-            else if ((hu >= LBHUE && hu < HBHUE) && (va >= LBVA && va < HBVA) && (sa < BSAT)) {
+            else if ((hu >= LBHUE && hu <= HBHUE) && (va >= LBVA && va <= HBVA) && (sa <= BSAT)) {
 
                 myColors[i] = "b"; //set to string of b (blue)
 
@@ -237,7 +237,7 @@ public class ColorMatcher{
 
             //white
 
-           else if ((hu >= LWHUE && hu < HWHUE) && (va >= LWVA && va < HWVA) && (sa < WSAT)) {
+           else if ((hu >= LWHUE && hu < HWHUE) && (va >= LWVA && va < HWVA) && (sa <= WSAT)) {
 
                 myColors[i] = "w"; // set to string of w
 
@@ -261,7 +261,7 @@ public class ColorMatcher{
 
 
 
-
+            Log.d("Color", myColors[i]);
 
         }
 
@@ -276,7 +276,7 @@ public class ColorMatcher{
         //check if map has the color string in the matches file
         if(map.containsValue(String.valueOf(yourColors))){
 
-            match = true; // set match to true
+            match = true;
         }
 
 
