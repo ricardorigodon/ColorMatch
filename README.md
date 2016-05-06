@@ -1,5 +1,5 @@
 
-
+![logo](https://github.com/ricardorigodon/ColorMatch/blob/master/images/ic_launcher.png)
 # Welcome to Color Match.
 
 Color application on Android that will tell you if your outfit is a match or not a match. Software Engineering Project for Spring 2016.
