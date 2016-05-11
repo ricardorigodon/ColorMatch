@@ -67,6 +67,10 @@ And Delete (looks like a trashcan) where you can delete the color from your list
 
 Three dots on main Color Match page in the top right you can either "Contact Us" the original developers of Camera Color Picker telling them how awesome my module is, view the Content & Licenses page with the open source libraries used and their licenses, or see a snippet about this app.
 
+# Why is my app innovative?
+
+There are no applications at least on my playStore and iOS Store that will tell you if the colors you chose are a match or not. This is developed to not only be a helpful app for me but for others as well. When you wake up in the morning and rather than looking up does "does red orange and purple match" in Google you could easily use my app and find out in a few seconds.
+
 
 #Acknowledged Bugs
 
