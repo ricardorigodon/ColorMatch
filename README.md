@@ -3,7 +3,7 @@
 # Welcome to Color Match.
 
 Color application on Android that will tell you if your outfit is a match or not a match. Software Engineering Project for Spring 2016.
-Uses android camera to grab colors and clicking match button will tell user if the chosen colors are a match or not.
+Uses android camera to grab colors and clicking match button will tell user if the chosen colors are a match or not. For those that have trouble deciding if colors match or not and either have to look it up or ask a friend my app is for you.
 
 Added module to Open Source project Camera Color Picker by tvbarthel. https://github.com/tvbarthel/CameraColorPicker
 
